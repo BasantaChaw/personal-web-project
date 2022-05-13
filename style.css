@@ -1,0 +1,283 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url("bg.jpg");
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#wraper {
+  border: 1px solid black;
+  margin-top: 25%;
+  border: 1.5px solid rgb(37, 139, 255);
+  margin: 20px;
+  margin-left: 60px;
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(
+      to right,
+      #eef2f3,
+      #8e9eab
+    /* ); /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(
+      to right,
+      #eef2f3,
+      #8e9eab
+    ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: rgb(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  width: 1240px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 580px;
+}
+
+#menu ul {
+  background-color: cadetblue;
+}
+
+#menu {
+  float: right;
+}
+
+#menu ul li {
+  display: inline;
+  margin-top: 10%;
+  background-color: rgb(212, 24, 81);
+  padding: 0%;
+  text-align: center;
+}
+
+#menu ul li a:hover {
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+#menu ul li a {
+  text-decoration: none;
+  float: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  transition-duration: 1s;
+  margin-top: 10px;
+  padding-left: 6px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-right: 20px;
+}
+
+#sidebarname {
+  float: left;
+  clear: both;
+}
+
+#sidebarname h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(75, 71, 71);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  margin-left: 50px;
+  letter-spacing: 5px;
+  margin-top: 10px;
+  clear: both;
+}
+#aboutme {
+  float: left;
+  width: 200px;
+  margin-top: 20px;
+}
+#aboutme h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  margin-left: 1px;
+  letter-spacing: 2px;
+  clear: both;
+  width: 600px;
+  margin-top: 200px;
+}
+#loginbox form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10%;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 200px;
+  border: 1.8px solid rgb(37, 139, 255);
+  height: 250px;
+}
+
+#content {
+  float: left;
+  padding: 2%;
+  width: 600px;
+  margin-top: 12%;
+  height: 200px;
+  box-sizing: border-box;
+  clear: left;
+}
+#content h1 {
+  margin-left: 18%;
+  margin-bottom: 2%;
+  font-weight: bolder;
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#content p {
+  text-align: center;
+  line-height: 25px;
+}
+
+#loginbox {
+  float: right;
+  padding: 3%;
+  margin-right: 10%;
+  margin-top: 4%;
+  clear: right;
+}
+#loginbox input {
+  margin-left: 25%;
+  padding: 3%;
+  margin-top: 7%;
+  border-bottom-left-radius: 10px;
+  background-color: rgba(245, 245, 245, 0.623);
+  outline: none;
+  border-top-right-radius: 10px;
+  border: 1.8px solid rgb(37, 139, 255);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  margin: 1.5%;
+}
+
+button {
+  padding: 2%;
+  margin-top: 3%;
+  background-color: transparent;
+  border: 2px solid rgb(37, 139, 255);
+  border-radius: 5px;
+  margin-left: 40%;
+}
+#loginbox form img {
+  width: 100px;
+  height: 100px;
+}
+label {
+  font: bolder;
+}
+#footer {
+  clear: both;
+  margin-top: 20%;
+  margin-left: 37%;
+}
+#footer ul li {
+  display: inline;
+  margin-top: 20%;
+  padding: 1%;
+  text-align: center;
+}
+#footer ul li a img {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  transition-duration: 0.7s;
+  margin-top: 20px;
+  padding-left: 6px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid #ffffff;
+  margin-right: 20px;
+}
+#footer ul li img {
+  width: 30px;
+  height: 30px;
+}
+#footer ul li a :hover {
+  border-bottom: 2px solid rgb(37, 139, 255);
+}
+#hover:hover {
+  background-color: rgb(116, 172, 236);
+}
+#loginbox form #im {
+  float: left;
+}
+#loginbox form #ad {
+  float: right;
+  font-family: monospace;
+  margin-top: 17%;
+  margin-right: 12%;
+}
+#banner-registration {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 7%;
+  margin-left: 15%;
+  border-radius: 20px;
+  width: 870px;
+  height: 400px;
+}
+#banner-registration #imageframe {
+  float: left;
+  width: 350px;
+  border-radius: 20px;
+
+  height: 350px;
+}
+#banner-registration #imageframe img {
+  width: 360px;
+  height: 400px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#banner-registration #registrationform {
+  float: right;
+  width: 500px;
+  margin-top: 30px;
+  height: 380px;
+}
+#banner-registration #registrationform input {
+  padding: 10px;
+  text-align: center;
+  margin-left: 80px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.589);
+  border-radius: 6px;
+  border: 1.8px solid rgb(37, 139, 255);
+  margin-right: 60px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 350px;
+  margin-top: 17px;
+}
+#banner-registration #registrationform #sub {
+  padding: 10px;
+  text-align: center;
+  margin-left: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  background-color: lightblue;
+  font-size:20px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  border-radius: 6px;
+  font-size: 12px;
+  border: 1.8px solid rgb(37, 139, 255);
+  margin-right: 60px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 300px;
+  margin-top: 17px;
+}
